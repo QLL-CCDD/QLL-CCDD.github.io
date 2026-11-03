@@ -61,32 +61,32 @@
         <a class="title" href="/">
             <span>ARCUEID KUONJI</span>
         </a>
-        
+
         <a href="/">
             <i class="fa-solid fa-house fa-fw"></i>
             <span>&ensp;Home</span>
         </a>
-        
+
         <a href="/about">
             <i class="fa-solid fa-id-card fa-fw"></i>
             <span>&ensp;About</span>
         </a>
-        
+
         <a href="/archives">
             <i class="fa-solid fa-box-archive fa-fw"></i>
             <span>&ensp;Archives</span>
         </a>
-        
+
         <a href="/categories">
             <i class="fa-solid fa-bookmark fa-fw"></i>
             <span>&ensp;Categories</span>
         </a>
-        
+
         <a href="/tags">
             <i class="fa-solid fa-tags fa-fw"></i>
             <span>&ensp;Tags</span>
         </a>
-        
+
     </nav>
     <nav id="mobile-menu">
         <div class="title" @click="showMenuItems = !showMenuItems">
@@ -95,7 +95,7 @@
         </div>
         <transition name="slide">
             <div class="items" v-show="showMenuItems">
-                
+
                 <a href="/">
                     <div class="item">
                         <div style="min-width: 20px; max-width: 50px; width: 10%">
@@ -104,7 +104,7 @@
                         <div style="min-width: 100px; max-width: 150%; width: 20%">Home</div>
                     </div>
                 </a>
-                
+
                 <a href="/about">
                     <div class="item">
                         <div style="min-width: 20px; max-width: 50px; width: 10%">
@@ -113,7 +113,7 @@
                         <div style="min-width: 100px; max-width: 150%; width: 20%">About</div>
                     </div>
                 </a>
-                
+
                 <a href="/archives">
                     <div class="item">
                         <div style="min-width: 20px; max-width: 50px; width: 10%">
@@ -122,7 +122,7 @@
                         <div style="min-width: 100px; max-width: 150%; width: 20%">Archives</div>
                     </div>
                 </a>
-                
+
                 <a href="/categories">
                     <div class="item">
                         <div style="min-width: 20px; max-width: 50px; width: 10%">
@@ -131,7 +131,7 @@
                         <div style="min-width: 100px; max-width: 150%; width: 20%">Categories</div>
                     </div>
                 </a>
-                
+
                 <a href="/tags">
                     <div class="item">
                         <div style="min-width: 20px; max-width: 50px; width: 10%">
@@ -140,7 +140,7 @@
                         <div style="min-width: 100px; max-width: 150%; width: 20%">Tags</div>
                     </div>
                 </a>
-                
+
             </div>
         </transition>
     </nav>
@@ -150,241 +150,23 @@
 </transition>
 
         <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
-            
+
 <div id="archives">
-    
+
     <div id="timeline-wrap" ref="timeline">
-        
-        <div class="timeline" data-title="高等数学">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2025/6/16</div>
-                <a href="/2025/06/16/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/">
-                    <h3>高等数学</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                    <span class="tags">
-                        <span class="icon">
-                            <i class="fa-solid fa-tags fa-fw"></i>
-                        </span>
-                        
-                        
-                        <span class="tag">
-                            
-                            <a href="/tags/%E5%AD%A6%E4%B9%A0%E5%BB%BA%E8%AE%AE/" style="color: #ff7d73">
-                                学习建议
-                            </a>
-                        </span>
-                        
-                        <span class="tag">
-                            
-                            <a href="/tags/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/" style="color: #03a9f4">
-                                课程资料
-                            </a>
-                        </span>
-                        
-                        <span class="tag">
-                            
-                            <a href="/tags/%E9%80%89%E8%AF%BE%E5%BB%BA%E8%AE%AE/" style="color: #ffa2c4">
-                                选课建议
-                            </a>
-                        </span>
-                        
-                    </span>
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="timeline" data-title="线性代数">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2025/6/16</div>
-                <a href="/2025/06/16/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/">
-                    <h3>线性代数</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                    <span class="tags">
-                        <span class="icon">
-                            <i class="fa-solid fa-tags fa-fw"></i>
-                        </span>
-                        
-                        
-                        <span class="tag">
-                            
-                            <a href="/tags/%E5%AD%A6%E4%B9%A0%E5%BB%BA%E8%AE%AE/" style="color: #ffa2c4">
-                                学习建议
-                            </a>
-                        </span>
-                        
-                        <span class="tag">
-                            
-                            <a href="/tags/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/" style="color: #03a9f4">
-                                课程资料
-                            </a>
-                        </span>
-                        
-                        <span class="tag">
-                            
-                            <a href="/tags/%E9%80%89%E8%AF%BE%E5%BB%BA%E8%AE%AE/" style="color: #ffa2c4">
-                                选课建议
-                            </a>
-                        </span>
-                        
-                    </span>
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="timeline" data-title="经济学导论">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2025/6/16</div>
-                <a href="/2025/06/16/%E7%BB%8F%E6%B5%8E%E5%AD%A6%E5%AF%BC%E8%AE%BA/">
-                    <h3>经济学导论</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                    <span class="tags">
-                        <span class="icon">
-                            <i class="fa-solid fa-tags fa-fw"></i>
-                        </span>
-                        
-                        
-                        <span class="tag">
-                            
-                            <a href="/tags/%E5%AD%A6%E4%B9%A0%E5%BB%BA%E8%AE%AE/" style="color: #00bcd4">
-                                学习建议
-                            </a>
-                        </span>
-                        
-                        <span class="tag">
-                            
-                            <a href="/tags/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/" style="color: #03a9f4">
-                                课程资料
-                            </a>
-                        </span>
-                        
-                        <span class="tag">
-                            
-                            <a href="/tags/%E9%80%89%E8%AF%BE%E5%BB%BA%E8%AE%AE/" style="color: #00a596">
-                                选课建议
-                            </a>
-                        </span>
-                        
-                    </span>
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="timeline" data-title="离散数学">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2025/6/16</div>
-                <a href="/2025/06/16/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/">
-                    <h3>离散数学</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                    <span class="tags">
-                        <span class="icon">
-                            <i class="fa-solid fa-tags fa-fw"></i>
-                        </span>
-                        
-                        
-                        <span class="tag">
-                            
-                            <a href="/tags/%E5%AD%A6%E4%B9%A0%E5%BB%BA%E8%AE%AE/" style="color: #ffa2c4">
-                                学习建议
-                            </a>
-                        </span>
-                        
-                        <span class="tag">
-                            
-                            <a href="/tags/%E8%AF%BE%E7%A8%8B%E8%B5%84%E6%96%99/" style="color: #ff7d73">
-                                课程资料
-                            </a>
-                        </span>
-                        
-                    </span>
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="timeline" data-title="cs100/si100b">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2025/6/16</div>
-                <a href="/2025/06/16/CS100-SI100B/">
-                    <h3>CS100/SI100B</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                    <span class="tags">
-                        <span class="icon">
-                            <i class="fa-solid fa-tags fa-fw"></i>
-                        </span>
-                        
-                        
-                        <span class="tag">
-                            
-                            <a href="/tags/%E5%AD%A6%E4%B9%A0%E5%BB%BA%E8%AE%AE/" style="color: #ffa2c4">
-                                学习建议
-                            </a>
-                        </span>
-                        
-                    </span>
-                    
-                </div>
-            </div>
-        </div>
-        
-        <div class="timeline" data-title="人文课">
-            <div class="timeline-tail"></div>
-            <div class="timeline-content">
-                <div class="item-time">2025/6/20</div>
-                <a href="/2025/06/20/%E4%BA%BA%E6%96%87%E8%AF%BE/">
-                    <h3>人文课</h3>
-                </a>
-                <div class="info">
-                    
-                    
-                    <span class="tags">
-                        <span class="icon">
-                            <i class="fa-solid fa-tags fa-fw"></i>
-                        </span>
-                        
-                        
-                        <span class="tag">
-                            
-                            <a href="/tags/%E5%AD%A6%E4%B9%A0%E5%BB%BA%E8%AE%AE/" style="color: #03a9f4">
-                                学习建议
-                            </a>
-                        </span>
-                        
-                        <span class="tag">
-                            
-                            <a href="/tags/%E9%80%89%E8%AF%BE%E5%BB%BA%E8%AE%AE/" style="color: #00a596">
-                                选课建议
-                            </a>
-                        </span>
-                        
-                    </span>
-                    
-                </div>
-            </div>
-        </div>
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
         <div class="timeline" data-title="新手指南——好用的skd网站">
             <div class="timeline-tail"></div>
             <div class="timeline-content">
@@ -393,27 +175,27 @@
                     <h3>新手指南——好用的skd网站</h3>
                 </a>
                 <div class="info">
-                    
-                    
+
+
                     <span class="tags">
                         <span class="icon">
                             <i class="fa-solid fa-tags fa-fw"></i>
                         </span>
-                        
-                        
+
+
                         <span class="tag">
-                            
+
                             <a href="/tags/skd%E6%96%B0%E6%89%8B%E6%8C%87%E5%8D%97/" style="color: #00a596">
                                 skd新手指南
                             </a>
                         </span>
-                        
+
                     </span>
-                    
+
                 </div>
             </div>
         </div>
-        
+
     </div>
 </div>
 
@@ -431,20 +213,20 @@
             Based on the <a target="_blank" rel="noopener" href="https://hexo.io">Hexo Engine</a> &amp;
             <a target="_blank" rel="noopener" href="https://github.com/theme-particlex/hexo-theme-particlex">ParticleX Theme</a>
         </div>
-        
+
     </div>
 </footer>
 
         </div>
-        
+
         <transition name="fade">
             <div id="preview" ref="preview" v-show="previewShow">
                 <img id="preview-content" ref="previewContent" />
             </div>
         </transition>
-        
+
     </div>
     <script src="/js/main.js"></script>
-    
+
 </body>
 </html>
